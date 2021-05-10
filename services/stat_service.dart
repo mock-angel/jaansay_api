@@ -1,7 +1,7 @@
 import 'package:get_storage/get_storage.dart';
 import '../models/profile_visitor.dart';
 import '../models/statistics.dart';
-import '../../api/services/dio_service.dart';
+import 'dio_service.dart';
 
 class StatService {
   final officialId = GetStorage().read("official_id");

@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart' hide FormData;
 import 'package:get_storage/get_storage.dart';
-import '../../constants/constants.dart';
+import 'package:jaansay_officials/constants/constants.dart';
 
 class DioService {
   GetStorage box = GetStorage();
