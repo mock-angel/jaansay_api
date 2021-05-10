@@ -26,7 +26,7 @@ class DioService {
     } catch (e) {
       print(e);
       if (e is DioError) {
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           Get.rawSnackbar(
               message:
                   "Internet unavailable. Please check your internet connection.");
@@ -47,7 +47,7 @@ class DioService {
       }
     } catch (e) {
       if (e is DioError) {
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           Get.rawSnackbar(
               message:
                   "Internet unavailable. Please check your internet connection.");
@@ -75,7 +75,7 @@ class DioService {
       }
     } catch (e) {
       if (e is DioError) {
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           Get.rawSnackbar(
               message:
                   "Internet unavailable. Please check your internet connection.");
@@ -100,7 +100,7 @@ class DioService {
       }
     } catch (e) {
       if (e is DioError) {
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           Get.rawSnackbar(
               message:
                   "Internet unavailable. Please check your internet connection.");
@@ -128,7 +128,7 @@ class DioService {
       }
     } catch (e) {
       if (e is DioError) {
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           Get.rawSnackbar(
               message:
                   "Internet unavailable. Please check your internet connection.");
@@ -154,7 +154,7 @@ class DioService {
       }
     } catch (e) {
       if (e is DioError) {
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           Get.rawSnackbar(
               message:
                   "Internet unavailable. Please check your internet connection.");
