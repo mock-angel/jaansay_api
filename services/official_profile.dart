@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/constants/constants.dart';
-import 'package:jaansay_officials/api/models/official.dart';
+import '../../constants/constants.dart';
+import '../models/official.dart';
 
 class OfficialProfile {
   Dio dio = Dio();

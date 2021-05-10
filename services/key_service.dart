@@ -1,7 +1,7 @@
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/models/key.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
-import 'package:jaansay_officials/api/services/notification_service.dart';
+import '../models/key.dart';
+import 'dio_service.dart';
+import 'notification_service.dart';
 
 class KeyService {
   final officialId = GetStorage().read("official_id");

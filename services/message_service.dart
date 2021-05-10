@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/models/message.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
-import 'package:jaansay_officials/api/services/notification_service.dart';
+import '../models/message.dart';
+import 'dio_service.dart';
+import 'notification_service.dart';
 
 class MessageService {
   final officialId = GetStorage().read("official_id");

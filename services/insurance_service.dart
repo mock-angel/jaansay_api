@@ -1,6 +1,6 @@
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/models/insurance.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
+import '../models/insurance.dart';
+import 'dio_service.dart';
 
 class InsuranceService {
   final officialId = GetStorage().read("official_id");

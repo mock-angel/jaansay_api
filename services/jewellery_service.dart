@@ -1,11 +1,11 @@
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/constants/constants.dart';
-import 'package:jaansay_officials/api/models/customer.dart';
-import 'package:jaansay_officials/api/models/jewellery.dart';
-import 'package:jaansay_officials/api/models/message.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
-import 'package:jaansay_officials/api/services/follow_service.dart';
-import 'package:jaansay_officials/api/services/group_message_service.dart';
+import '../../constants/constants.dart';
+import '../models/customer.dart';
+import '../models/jewellery.dart';
+import '../models/message.dart';
+import 'dio_service.dart';
+import 'follow_service.dart';
+import 'group_message_service.dart';
 
 class JewelleryService {
   final officialId = GetStorage().read("official_id");

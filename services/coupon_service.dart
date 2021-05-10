@@ -1,9 +1,9 @@
 import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/models/coupon.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
-import 'package:jaansay_officials/api/services/notification_service.dart';
-import 'package:jaansay_officials/utils/misc_utils.dart';
+import '../models/coupon.dart';
+import 'dio_service.dart';
+import 'notification_service.dart';
+import '../../utils/misc_utils.dart';
 
 class CouponService {
   final officialId = GetStorage().read("official_id");

@@ -1,6 +1,6 @@
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/models/group.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
+import '../models/group.dart';
+import 'dio_service.dart';
 
 class GroupService {
   final officialId = GetStorage().read("official_id");

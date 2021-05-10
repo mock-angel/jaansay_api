@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
+import 'dio_service.dart';
 
 class MiscService {
   final officialId = GetStorage().read("official_id");

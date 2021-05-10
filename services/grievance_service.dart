@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:jaansay_officials/api/models/grievance.dart';
-import 'package:jaansay_officials/api/services/dio_service.dart';
+import '../models/grievance.dart';
+import 'dio_service.dart';
 
 class GrievanceService {
   final officialId = GetStorage().read("official_id");

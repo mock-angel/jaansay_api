@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:jaansay_officials/constants/constants.dart';
+import '../../constants/constants.dart';
 
 class NotificationService {
   Dio dio = new Dio();
